@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AURA - Illuminating Excellence Through Premium Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <div class="aura-logo-loading">
+                <span class="aura-text">AURA</span>
+                <div class="loading-particles"></div>
+            </div>
+            <div class="loading-progress">
+                <div class="progress-bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cursor Effect -->
+    <div class="custom-cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">AURA</span>
+                <div class="logo-glow"></div>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="particles-container"></div>
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-logo">
+                <div class="floating-logo">
+                    <span class="aura-main">AURA</span>
+                    <div class="logo-border"></div>
+                    <div class="logo-particles"></div>
+                </div>
+            </div>
+            <h1 class="hero-title">
+                <span class="typing-text" data-text="Illuminating Excellence Through Premium Design"></span>
+            </h1>
+            <p class="hero-subtitle">Transforming visions into extraordinary experiences through innovative design, strategic thinking, and uncompromising quality.</p>
+            <div class="hero-cta">
+                <button class="btn-luxury" id="heroBtn">
+                    <span>Discover Our Vision</span>
+                    <div class="btn-glow"></div>
+                </button>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Welcome to the Future of Premium Creative Solutions</h2>
+                <p class="section-subtitle">Six pillars of excellence that define our approach to transformative design</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card" data-bg="1">
+                    <div class="feature-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Strategic Vision</h3>
+                    <p>We combine artistic vision with strategic insight to deliver extraordinary results that illuminate your brand's true potential.</p>
+                </div>
+                <div class="feature-card" data-bg="2">
+                    <div class="feature-icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <h3>Premium Quality</h3>
+                    <p>Every project reflects our commitment to excellence with meticulous attention to detail and uncompromising standards.</p>
+                </div>
+                <div class="feature-card" data-bg="3">
+                    <div class="feature-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Innovation</h3>
+                    <p>Pioneering creative solutions that push boundaries and set new standards in design and brand experiences.</p>
+                </div>
+                <div class="feature-card" data-bg="4">
+                    <div class="feature-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Client Focus</h3>
+                    <p>White-glove service and personalized attention that makes every client feel valued and understood.</p>
+                </div>
+                <div class="feature-card" data-bg="5">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Future-Ready</h3>
+                    <p>Forward-thinking strategies that position your brand for long-term success in an ever-evolving marketplace.</p>
+                </div>
+                <div class="feature-card" data-bg="6">
+                    <div class="feature-icon">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <h3>Transformation</h3>
+                    <p>Comprehensive solutions crafted to elevate your brand and illuminate your path to success.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Premium Services</h2>
+                <p class="section-subtitle">Comprehensive creative solutions tailored to elevate your brand</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Brand Design</h3>
+                        <p>Comprehensive brand development and positioning that captures your essence and communicates your unique value proposition to the world.</p>
+                    </div>
+                    <div class="service-hover-effect"></div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Digital Experience</h3>
+                        <p>Cutting-edge digital experiences and interfaces that seamlessly blend aesthetics with functionality for maximum impact.</p>
+                    </div>
+                    <div class="service-hover-effect"></div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Creative Solutions</h3>
+                        <p>Innovative approaches to complex challenges, turning obstacles into opportunities through creative problem-solving.</p>
+                    </div>
+                    <div class="service-hover-effect"></div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-growth"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Premium Consulting</h3>
+                        <p>Expert guidance for business transformation, providing strategic insights that drive growth and market differentiation.</p>
+                    </div>
+                    <div class="service-hover-effect"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Portfolio</h2>
+                <p class="section-subtitle">Exceptional projects that showcase our commitment to excellence</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="Brand Strategy">
+                    <div class="portfolio-image">
+                        <img src="https://pplx-res.cloudinary.com/image/upload/v1754821838/pplx_project_search_images/96cdb43c4f535f219bcf9e32aae471ac836ea5c8.png" alt="Luxury Lifestyle Brand">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>Luxury Lifestyle Brand</h3>
+                                <p>Complete brand transformation for premium lifestyle company</p>
+                                <span class="portfolio-category">Brand Strategy</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="Digital Design">
+                    <div class="portfolio-image">
+                        <img src="https://pplx-res.cloudinary.com/image/upload/v1754742738/pplx_project_search_images/37d169717082225d4fe670c061eaa2f93f6715b2.png" alt="Tech Platform Design">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>Tech Platform Design</h3>
+                                <p>Award-winning digital platform for global technology leader</p>
+                                <span class="portfolio-category">Digital Design</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="Creative Solutions">
+                    <div class="portfolio-image">
+                        <img src="https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/5dbe9dc3-0e0b-4848-92c7-c172cd73eebd.png" alt="Multi-Channel Campaign">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>Multi-Channel Campaign</h3>
+                                <p>Innovative multi-channel campaign that redefined industry standards</p>
+                                <span class="portfolio-category">Creative Solutions</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="Premium Consulting">
+                    <div class="portfolio-image">
+                        <img src="https://pplx-res.cloudinary.com/image/upload/v1757266567/pplx_project_search_images/191397dfa9dcb4a836a60e9d192f310507faa44a.png" alt="Business Strategy">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>Business Strategy</h3>
+                                <p>Comprehensive business strategy overhaul driving 300% growth</p>
+                                <span class="portfolio-category">Premium Consulting</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="testimonials-background">
+            <img src="https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/c4e258fa-88ce-4d49-a4c9-c4c7bc8e600f.png" alt="Elegant background">
+        </div>
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Client Testimonials</h2>
+                <p class="section-subtitle">Hear from the visionaries who trust us with their most important projects</p>
+            </div>
+            <div class="testimonials-carousel">
+                <div class="testimonial-card active">
+                    <div class="quote-marks">&ldquo;</div>
+                    <p class="testimonial-text">AURA transformed our brand identity completely. Their attention to detail and creative vision exceeded our expectations. The team's professionalism and innovative approach set them apart.</p>
+                    <div class="testimonial-author">
+                        <h4>Sarah Johnson</h4>
+                        <span>CEO, Luxury Brands Inc.</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-marks">&ldquo;</div>
+                    <p class="testimonial-text">Working with AURA was a game-changer for our business. Professional, innovative, and results-driven. They delivered beyond what we thought was possible.</p>
+                    <div class="testimonial-author">
+                        <h4>Michael Chen</h4>
+                        <span>Founder, Tech Innovations</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-marks">&ldquo;</div>
+                    <p class="testimonial-text">The team at AURA brings exceptional creativity and strategic thinking to every project. Their premium approach and attention to detail are unmatched. Highly recommended.</p>
+                    <div class="testimonial-author">
+                        <h4>Emma Rodriguez</h4>
+                        <span>Marketing Director, Global Corp</span>
+                    </div>
+                </div>
+                <div class="testimonial-nav">
+                    <button class="nav-dot active" data-slide="0"></button>
+                    <button class="nav-dot" data-slide="1"></button>
+                    <button class="nav-dot" data-slide="2"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Start Your Transformation</h2>
+                <p class="section-subtitle">Ready to illuminate your brand's potential? Let's create something extraordinary together.</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>hello@aura-agency.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>123 Design District, Creative City, CC 12345</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name">Your Name</label>
+                        <div class="input-highlight"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email">Email Address</label>
+                        <div class="input-highlight"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" required>
+                        <label for="subject">Project Type</label>
+                        <div class="input-highlight"></div>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" required></textarea>
+                        <label for="message">Tell us about your vision</label>
+                        <div class="input-highlight"></div>
+                    </div>
+                    <button type="submit" class="btn-luxury">
+                        <span>Send Message</span>
+                        <div class="btn-glow"></div>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text">AURA</span>
+                    <p>Illuminating Excellence Through Premium Design</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 AURA Creative Agency. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
